@@ -28,3 +28,47 @@
 
  ## Components needed
 
+### Start menu
+ - What the user will see upon starting the app.
+ - Must have the following
+   - The title of the game
+   - A start game button
+   - A how to play button
+   - Credit to the Dog API database
+
+### Game menu
+ - Where a round of the game is played
+ - Must have the following
+   - A photo component
+   - An answer button
+   - A quit button
+   - A current score for the round
+   - A total score
+
+### Game setting menu
+ - Where the user sets up the game settings
+ - Must have the following
+  - The ability to select either Easy or Hard mode
+  - The ability to select how many photos
+  - A start button
+
+### How to play
+ - Instructions for playing the game
+ - Must have the following
+  - Text that explains the game in a clear and concise manner
+  - A button to return to the menu
+
+### Photo
+ - Holds the photo and the tile map that covers it.
+ - photo can have any size or ratio
+ - Upon the round starting, the tiles will slowly dissappear.
+   - Maybe have tiles dissappear starting from the center.
+ - While answering, photo will be hidden.
+
+### Answer
+ - Comes up when user clicks the answer button.
+ - Will cover the photo.
+ - Input will depend on difficulty mode.
+ - Must have the following
+   - A submit button
+   - A back button
