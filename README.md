@@ -72,3 +72,16 @@
  - Must have the following
    - A submit button
    - A back button
+
+## Component hierarchy
+
+Menu
+|--------------------------|------------------------------|
+v                          v                              v
+Game Settings           How to play                     Credits
+|
+v
+Game Menu
+|-------------|
+v             v
+Answer      Photo

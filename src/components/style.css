@@ -1,0 +1,17 @@
+#mainmenu
+{
+    text-align: center;
+}
+
+#title
+{
+    font-size: 50px;
+}
+
+.verticaldisplay
+{
+    display:block;
+    margin:auto;
+    font-size: 40px;
+    margin-top: 5px;
+}
